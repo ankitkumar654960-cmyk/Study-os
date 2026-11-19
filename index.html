@@ -163,11 +163,9 @@ body{background:radial-gradient(ellipse at 50% -15%,#112b67 0,#050b1d 42%,#02061
   <div class="focusPanelTitle">🛡 App Blocker <span class="focusTag">ANDROID</span></div>
   <div class="focusSmall">Choose distracting apps to block during a focus session.</div>
   <div class="blockApps">
-    <label class="appChoice"><input type="checkbox" id="blockInstagram"> <span>📸 Instagram</span></label>
-    <label class="appChoice"><input type="checkbox" id="blockYouTube"> <span>▶ YouTube</span></label>
-    <label class="appChoice"><input type="checkbox" id="blockOther"> <span>＋ Other apps</span></label>
-  </div>
-  <div class="nativeNotice">Native Android permission and a separate test APK are required. App blocking is not active in this web preview.</div>
+    <lanput type="checkbox" id="blockInstagram"> <span>📸 Instagram</span></la
+ </div>
+  <div clasce">Native Android permission and a separate test APK are required. App blocking is not active in this web preview.</div>
 </div>
 <div class="focusPanel compactPanel">
   <div class="focusPanelTitle">⚙ Focus settings</div>
@@ -194,11 +192,6 @@ if(!data.meta)data.meta={};
 if(!data.meta[seedKey]){
  const d=today();
  const initial=[
-  {title:'Physics: Laws of Motion — Lecture 03',subject:'Physics',chapter:'Laws of Motion',lecture:'Lecture 03',done:false,link:''},
-  {title:'Physics: Lecture 03 ke notes complete karna',subject:'Physics',chapter:'Laws of Motion',lecture:'Lecture 03 Notes',done:false,link:''},
-  {title:'Physics: Lecture 03 ki DPP solve karna',subject:'Physics',chapter:'Laws of Motion',lecture:'Lecture 03 DPP',done:false,link:''},
-  {title:'Inorganic Chemistry — aaj ka lecture/study',subject:'Chemistry - Inorganic',chapter:'Inorganic Chemistry',lecture:"Today study",done:false,link:''}
- ];
  data.tasks[d]=[...(Array.isArray(data.tasks[d])?data.tasks[d]:[]),...initial];
  data.meta[seedKey]=true;
 }
